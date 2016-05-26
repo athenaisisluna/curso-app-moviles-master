@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Taller AppsMoviles1</string>
+    <string name="ingresa_tu_usuario">Ingresa tu usuario</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="siga">Sistema de Información de Gestión Académica</string>
+    <string name="usuario">usuario</string>
+    <string name="elige_tu_certificado">Elige tu certificado</string>
+    <string name="facebook_app_id">283051375361402</string>
+    <string name="ayuda_encuesta">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt odio vel dolor dictum scelerisque. Phasellus in massa quis ex posuere ultrices. Praesent ac tincidunt dui, vitae sollicitudin metus. Nullam tincidunt, nisi et accumsan sodales, odio dui pretium ex, sed euismod erat orci ut nunc. Maecenas justo mi, euismod pretium eros eget, porta fringilla odio. Praesent id elit felis. Vivamus elementum dolor eu enim congue, nec ultricies turpis ornare. Morbi orci mi, interdum sit amet arcu ultrices, malesuada laoreet magna. Proin interdum eget justo eget vulputate. Nam ultricies odio sit amet mattis volutpat. Vestibulum nec risus dapibus, sagittis sem ac, gravida quam.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buscar">Buscar</string>
+    <string name="imagenpelicula">imagenpelicula</string>
+
+</resources>

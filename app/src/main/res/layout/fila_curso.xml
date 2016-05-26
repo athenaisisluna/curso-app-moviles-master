@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/fila_curso_padding">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/report_card"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fila_curso_margin_left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewFilaNombreCurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fila_curso_nombre_textsize"
+            tools:text="Nombre curso"/>
+
+        <TextView
+            android:id="@+id/textViewFilaDescCurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fila_curso_desc_textsize"
+            tools:text="descripcion curso"/>
+
+    </LinearLayout>
+</LinearLayout>

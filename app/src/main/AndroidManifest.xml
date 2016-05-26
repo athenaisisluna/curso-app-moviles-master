@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cl.usm.tallerappsmoviles1">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.HomeActivity"
+            android:label="Menu" />
+        <activity
+            android:name=".activities.Pelicula"
+            android:label="Inscribir ramos" />
+        <activity
+            android:name=".activities.InscripcionActivity"
+            android:label="Inscribir ramos" />
+        <activity
+            android:name=".activities.CertificadosActivity"
+            android:label="Certificados" />
+        <activity
+            android:name=".activities.FichaPersonalActivity"
+            android:label="Ficha Personal" />
+        <activity
+            android:name=".activities.CineActivity"
+            android:label="Cine" />
+        <activity
+            android:name=".activities.ResumenAcademicoActivity"
+            android:label="Resumen Académico" />
+        <activity
+            android:name=".activities.MisRamosActivity"
+            android:label="Mis Ramos" />
+        <activity android:name=".activities.MapaSalaActivity" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="TU_API_KEY" />
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".activities.EncuestaDocenteActivity"
+            android:label="Encuesta Docente"></activity>
+
+        <activity android:name=".activities.BuscarPelicula"
+            android:label="Lookr for Movie"></activity>
+
+        <activity android:name=".activities.Search"
+            android:label="Lookr for Movie"></activity>
+    </application>
+
+</manifest>

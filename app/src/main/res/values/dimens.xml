@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="login_usm_logo_width">200dp</dimen>
+    <dimen name="login_usm_logo_height">200dp</dimen>
+    <dimen name="login_siga_textsize">20sp</dimen>
+    <dimen name="login_usuario_margin_top">35dp</dimen>
+    <dimen name="login_usuario_textsize">14sp</dimen>
+    <dimen name="login_button_margin_top">15dp</dimen>
+    <dimen name="login_button_padding">20dp</dimen>
+    <dimen name="login_button_textsize">16sp</dimen>
+
+    <dimen name="menu_image_height">160dp</dimen>
+    <dimen name="menu_image_text_margin_right">10dp</dimen>
+    <dimen name="menu_image_text_margin_bottom">10dp</dimen>
+    <dimen name="menu_image_text_size">20sp</dimen>
+
+    <dimen name="fila_curso_padding">15dp</dimen>
+    <dimen name="fila_curso_margin_left">10dp</dimen>
+    <dimen name="fila_curso_nombre_textsize">18sp</dimen>
+    <dimen name="fila_curso_desc_textsize">15sp</dimen>
+
+    <dimen name="text_size_texto_destacado">32sp</dimen>
+    <dimen name="text_size_texto_boton">26sp</dimen>
+
+    <dimen name="ancho_edit_text_usuario">150dp</dimen>
+
+</resources>
